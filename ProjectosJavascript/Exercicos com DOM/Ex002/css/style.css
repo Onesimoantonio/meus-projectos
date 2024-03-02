@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body{
+    background:rgb(70,142,236);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+
+}
+h2{color: gray; text-align: center;}
+input{
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right:0px;
+    padding: 5px;
+}
+.entrada{
+    position: relative;
+    text-align: center;
+}
+
+button{
+    /* border-top-right-radius: px solid;
+    border-bottom-right-radius: 5px solid; */
+    border-left:0px;
+    height: 29px;
+    position:absolute;
+}
+#res{
+    height: 300px;
+    padding: 5px;
+    text-align: center; 
+    overflow:auto;   
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.363);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
